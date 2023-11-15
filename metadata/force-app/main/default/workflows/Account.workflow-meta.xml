@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <rules>
+        <fullName>Account Rule One</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>Test</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account Rule Three</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>startsWith</operation>
+            <value>TA</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account Rule Two</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>TA 1</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account Workflow Rule</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>contains</operation>
+            <value>TA</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>
