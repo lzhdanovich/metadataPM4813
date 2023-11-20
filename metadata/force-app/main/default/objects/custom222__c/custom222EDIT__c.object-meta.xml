@@ -153,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>custom222</label>
+    <label>custom222EDIT</label>
     <nameField>
-        <label>custom222 Name</label>
+        <label>custom222EDIT Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>custom222s</pluralLabel>
+    <pluralLabel>custom222EDITSs</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
